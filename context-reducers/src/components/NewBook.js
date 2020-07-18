@@ -10,7 +10,6 @@ const NewBook = () => {
         dispatch({type : 'ADD_BOOK', book: {title: title, author: author}})
         setTitle('');
         setAuthor('');
-        
     }
     return ( 
         <form>
@@ -20,5 +19,4 @@ const NewBook = () => {
         </form>
      );
 }
- 
 export default NewBook;
